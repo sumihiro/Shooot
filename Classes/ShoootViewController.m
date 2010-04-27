@@ -366,7 +366,7 @@
 	//}
 	[bullet2 reset];
 	while ([bullet2 hasNext]) {
-		NwayBullet *bullet = [bullet2 next];
+		SnipeBullet *bullet = [bullet2 next];
 		[[appDelegate bullet2] drawAtPoint:CGPointMake(bullet.x, bullet.y)];
 	}
 	//for(SnipeBullet bullet: bullet2){
