@@ -9,6 +9,8 @@
 #import "ShoootAppDelegate.h"
 #import "ShoootViewController.h"
 
+#import <AudioToolbox/AudioServices.h>
+
 @implementation ShoootAppDelegate
 
 @synthesize window;
@@ -51,5 +53,9 @@
     [super dealloc];
 }
 
+#pragma mark -
+-(void)vibrate {
+	AudioServicesPlaySystemSound(kSystemSoundID_Vibrate);
+}
 
 @end

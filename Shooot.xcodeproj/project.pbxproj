@@ -32,6 +32,7 @@
 		A46A64471186717E005A38ED /* ShoootSurfaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = A46A64461186717E005A38ED /* ShoootSurfaceView.m */; };
 		A46A644A118671D4005A38ED /* SnipeBullet.m in Sources */ = {isa = PBXBuildFile; fileRef = A46A6449118671D4005A38ED /* SnipeBullet.m */; };
 		A46A644F118673AA005A38ED /* Spaceship.m in Sources */ = {isa = PBXBuildFile; fileRef = A46A644E118673AA005A38ED /* Spaceship.m */; };
+		A46A64CB11868125005A38ED /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A46A64CA11868125005A38ED /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -76,6 +77,7 @@
 		A46A6449118671D4005A38ED /* SnipeBullet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnipeBullet.m; sourceTree = "<group>"; };
 		A46A644D118673AA005A38ED /* Spaceship.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Spaceship.h; sourceTree = "<group>"; };
 		A46A644E118673AA005A38ED /* Spaceship.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Spaceship.m; sourceTree = "<group>"; };
+		A46A64CA11868125005A38ED /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				A46A64CB11868125005A38ED /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,6 +123,7 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				A46A64CA11868125005A38ED /* AudioToolbox.framework */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";

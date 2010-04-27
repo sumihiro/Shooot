@@ -31,5 +31,7 @@
 @property (nonatomic,retain) UIImage *bullet1;
 @property (nonatomic,retain) UIImage *bullet2;
 
+-(void)vibrate;
+
 @end
 
