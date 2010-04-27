@@ -106,7 +106,7 @@
 	recthit = [[self view] frame];
 	
 	// スレッドの開始
-	timer = [NSTimer scheduledTimerWithTimeInterval:1/60 target:self selector:@selector(run) userInfo:nil repeats:YES];
+	timer = [NSTimer scheduledTimerWithTimeInterval:1.0f/60.0f target:self selector:@selector(run) userInfo:nil repeats:YES];
 }
 
 
