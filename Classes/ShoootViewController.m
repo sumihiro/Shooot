@@ -387,7 +387,7 @@
 		//FIXME: 矩形の描画方法を調べる
 		//canvas.drawRect(0, 5, spaceship.life, 20, paintlife);
 		[fpsColor set];
-		NSString *life = [[NSString alloc] initWithFormat:@"LIFE: : %d",spaceship.life];
+		NSString *life = [[NSString alloc] initWithFormat:@"LIFE: %d",spaceship.life];
 		[life drawAtPoint:CGPointMake(1, 20) withFont:fpsFont];
 		[life release];
 		
