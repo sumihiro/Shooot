@@ -21,6 +21,17 @@
 		A46A6420118664CE005A38ED /* enemy.png in Resources */ = {isa = PBXBuildFile; fileRef = A46A641A118664CE005A38ED /* enemy.png */; };
 		A46A6421118664CE005A38ED /* mybullet.png in Resources */ = {isa = PBXBuildFile; fileRef = A46A641B118664CE005A38ED /* mybullet.png */; };
 		A46A6422118664CE005A38ED /* spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = A46A641C118664CE005A38ED /* spaceship.png */; };
+		A46A642B118667A3005A38ED /* Bullet.m in Sources */ = {isa = PBXBuildFile; fileRef = A46A642A118667A3005A38ED /* Bullet.m */; };
+		A46A642E11866968005A38ED /* CollisionDetect.m in Sources */ = {isa = PBXBuildFile; fileRef = A46A642D11866968005A38ED /* CollisionDetect.m */; };
+		A46A643311866BAA005A38ED /* Enemy.m in Sources */ = {isa = PBXBuildFile; fileRef = A46A643211866BAA005A38ED /* Enemy.m */; };
+		A46A643611866DB3005A38ED /* LinearBullet.m in Sources */ = {isa = PBXBuildFile; fileRef = A46A643511866DB3005A38ED /* LinearBullet.m */; };
+		A46A643911866EE6005A38ED /* MovableObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A46A643811866EE6005A38ED /* MovableObject.m */; };
+		A46A643C11866F3F005A38ED /* NwayBullet.m in Sources */ = {isa = PBXBuildFile; fileRef = A46A643B11866F3F005A38ED /* NwayBullet.m */; };
+		A46A6441118670BC005A38ED /* ShoootActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = A46A6440118670BC005A38ED /* ShoootActivity.m */; };
+		A46A64441186712B005A38ED /* ShoootSurfaceHolderCallback.m in Sources */ = {isa = PBXBuildFile; fileRef = A46A64431186712B005A38ED /* ShoootSurfaceHolderCallback.m */; };
+		A46A64471186717E005A38ED /* ShoootSurfaceView.m in Sources */ = {isa = PBXBuildFile; fileRef = A46A64461186717E005A38ED /* ShoootSurfaceView.m */; };
+		A46A644A118671D4005A38ED /* SnipeBullet.m in Sources */ = {isa = PBXBuildFile; fileRef = A46A6449118671D4005A38ED /* SnipeBullet.m */; };
+		A46A644F118673AA005A38ED /* Spaceship.m in Sources */ = {isa = PBXBuildFile; fileRef = A46A644E118673AA005A38ED /* Spaceship.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +54,28 @@
 		A46A641A118664CE005A38ED /* enemy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = enemy.png; sourceTree = "<group>"; };
 		A46A641B118664CE005A38ED /* mybullet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mybullet.png; sourceTree = "<group>"; };
 		A46A641C118664CE005A38ED /* spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spaceship.png; sourceTree = "<group>"; };
+		A46A6429118667A3005A38ED /* Bullet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bullet.h; sourceTree = "<group>"; };
+		A46A642A118667A3005A38ED /* Bullet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bullet.m; sourceTree = "<group>"; };
+		A46A642C11866968005A38ED /* CollisionDetect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollisionDetect.h; sourceTree = "<group>"; };
+		A46A642D11866968005A38ED /* CollisionDetect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollisionDetect.m; sourceTree = "<group>"; };
+		A46A643111866BAA005A38ED /* Enemy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Enemy.h; sourceTree = "<group>"; };
+		A46A643211866BAA005A38ED /* Enemy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Enemy.m; sourceTree = "<group>"; };
+		A46A643411866DB3005A38ED /* LinearBullet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinearBullet.h; sourceTree = "<group>"; };
+		A46A643511866DB3005A38ED /* LinearBullet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinearBullet.m; sourceTree = "<group>"; };
+		A46A643711866EE6005A38ED /* MovableObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovableObject.h; sourceTree = "<group>"; };
+		A46A643811866EE6005A38ED /* MovableObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovableObject.m; sourceTree = "<group>"; };
+		A46A643A11866F3F005A38ED /* NwayBullet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NwayBullet.h; sourceTree = "<group>"; };
+		A46A643B11866F3F005A38ED /* NwayBullet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NwayBullet.m; sourceTree = "<group>"; };
+		A46A643F118670BC005A38ED /* ShoootActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoootActivity.h; sourceTree = "<group>"; };
+		A46A6440118670BC005A38ED /* ShoootActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoootActivity.m; sourceTree = "<group>"; };
+		A46A64421186712B005A38ED /* ShoootSurfaceHolderCallback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoootSurfaceHolderCallback.h; sourceTree = "<group>"; };
+		A46A64431186712B005A38ED /* ShoootSurfaceHolderCallback.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoootSurfaceHolderCallback.m; sourceTree = "<group>"; };
+		A46A64451186717E005A38ED /* ShoootSurfaceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShoootSurfaceView.h; sourceTree = "<group>"; };
+		A46A64461186717E005A38ED /* ShoootSurfaceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShoootSurfaceView.m; sourceTree = "<group>"; };
+		A46A6448118671D4005A38ED /* SnipeBullet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnipeBullet.h; sourceTree = "<group>"; };
+		A46A6449118671D4005A38ED /* SnipeBullet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnipeBullet.m; sourceTree = "<group>"; };
+		A46A644D118673AA005A38ED /* Spaceship.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Spaceship.h; sourceTree = "<group>"; };
+		A46A644E118673AA005A38ED /* Spaceship.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Spaceship.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +95,7 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				A46A642811866792005A38ED /* Shooot */,
 				1D3623240D0F684500981E51 /* ShoootAppDelegate.h */,
 				1D3623250D0F684500981E51 /* ShoootAppDelegate.m */,
 				28D7ACF60DDB3853001CB0EB /* ShoootViewController.h */,
@@ -123,6 +157,43 @@
 				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A46A642811866792005A38ED /* Shooot */ = {
+			isa = PBXGroup;
+			children = (
+				A46A645E11867557005A38ED /* Models */,
+				A46A64451186717E005A38ED /* ShoootSurfaceView.h */,
+				A46A64461186717E005A38ED /* ShoootSurfaceView.m */,
+				A46A643F118670BC005A38ED /* ShoootActivity.h */,
+				A46A6440118670BC005A38ED /* ShoootActivity.m */,
+				A46A642C11866968005A38ED /* CollisionDetect.h */,
+				A46A642D11866968005A38ED /* CollisionDetect.m */,
+				A46A64421186712B005A38ED /* ShoootSurfaceHolderCallback.h */,
+				A46A64431186712B005A38ED /* ShoootSurfaceHolderCallback.m */,
+			);
+			name = Shooot;
+			sourceTree = "<group>";
+		};
+		A46A645E11867557005A38ED /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A46A6429118667A3005A38ED /* Bullet.h */,
+				A46A642A118667A3005A38ED /* Bullet.m */,
+				A46A643111866BAA005A38ED /* Enemy.h */,
+				A46A643211866BAA005A38ED /* Enemy.m */,
+				A46A643411866DB3005A38ED /* LinearBullet.h */,
+				A46A643511866DB3005A38ED /* LinearBullet.m */,
+				A46A643711866EE6005A38ED /* MovableObject.h */,
+				A46A643811866EE6005A38ED /* MovableObject.m */,
+				A46A643A11866F3F005A38ED /* NwayBullet.h */,
+				A46A643B11866F3F005A38ED /* NwayBullet.m */,
+				A46A6448118671D4005A38ED /* SnipeBullet.h */,
+				A46A6449118671D4005A38ED /* SnipeBullet.m */,
+				A46A644D118673AA005A38ED /* Spaceship.h */,
+				A46A644E118673AA005A38ED /* Spaceship.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,6 +259,17 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* ShoootAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* ShoootViewController.m in Sources */,
+				A46A642B118667A3005A38ED /* Bullet.m in Sources */,
+				A46A642E11866968005A38ED /* CollisionDetect.m in Sources */,
+				A46A643311866BAA005A38ED /* Enemy.m in Sources */,
+				A46A643611866DB3005A38ED /* LinearBullet.m in Sources */,
+				A46A643911866EE6005A38ED /* MovableObject.m in Sources */,
+				A46A643C11866F3F005A38ED /* NwayBullet.m in Sources */,
+				A46A6441118670BC005A38ED /* ShoootActivity.m in Sources */,
+				A46A64441186712B005A38ED /* ShoootSurfaceHolderCallback.m in Sources */,
+				A46A64471186717E005A38ED /* ShoootSurfaceView.m in Sources */,
+				A46A644A118671D4005A38ED /* SnipeBullet.m in Sources */,
+				A46A644F118673AA005A38ED /* Spaceship.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
