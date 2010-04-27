@@ -9,8 +9,6 @@
 #import "ShoootViewController.h"
 #import "QuartzCore/QuartzCore.h"
 
-#define RAND() (random() / RAND_MAX) 
-
 @implementation ShoootViewController
 
 
@@ -108,7 +106,7 @@
 	recthit = [[self view] frame];
 	
 	// スレッドの開始
-	timer = [NSTimer scheduledTimerWithTimeInterval:1/16 target:self selector:@selector(run) userInfo:nil repeats:YES];
+	timer = [NSTimer scheduledTimerWithTimeInterval:1/60 target:self selector:@selector(run) userInfo:nil repeats:YES];
 }
 
 
@@ -320,7 +318,7 @@
 		
 		// FPS処理
 		time1forfps = [NSDate timeIntervalSinceReferenceDate];
-		if(time1forfps - time2forfps > 1000){
+		if(time1forfps - time2forfps > 1){
 			framerate = framecount;
 			framecount = 0;
 			time2forfps = time1forfps;
@@ -411,7 +409,7 @@
 	
 	// FPS表示
 	[fpsColor set];
-	NSString *fps = [[NSString alloc] initWithFormat:@"FPS : %f",framerate];
+	NSString *fps = [[NSString alloc] initWithFormat:@"FPS : %d",framerate];
 	[fps drawAtPoint:CGPointMake(1, 40) withFont:fpsFont];
 	[fps release];
 	//canvas.drawText("FPS : " + String.valueOf(framerate), 1, 40, painthit);

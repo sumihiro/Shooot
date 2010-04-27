@@ -23,11 +23,11 @@
 			self.vx = 2 * cos(M_PI*dir*10 / 180);
 			self.vy = 2 * sin(M_PI*dir*10 / 180);			
 		}else{ // ランダム弾
-			self.vx = (5 - (-5) + 1) * random() + (-5);
+			self.vx = (5 - (-5) + 1) * RAND() + (-5);
 			if(abs(self.vx) < 2){ // 遅すぎる場合は加算
 				if(self.vx > 0)self.vx++; else self.vx--;
 			}
-			self.vy = (5 - (-5) + 1) * random() + (-5);
+			self.vy = (5 - (-5) + 1) * RAND() + (-5);
 			if(abs(self.vy) < 2){ // 遅すぎる場合は加算
 				if(self.vy > 0) self.vy++; else self.vy--;
 			}

@@ -6,3 +6,6 @@
     #import <Foundation/Foundation.h>
     #import <UIKit/UIKit.h>
 #endif
+
+#define RAND() ((double)random() / ((double)RAND_MAX + 1)) 
+

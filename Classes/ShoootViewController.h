@@ -42,7 +42,8 @@
 	CollisionDetect *cd;
 	//Paint paintlife, painthit;
 	int nwaybulletmode, snipebulletmode;
-	long framerate, framecount, time1forfps, time2forfps; // FPS用
+	long framerate, framecount;
+	NSTimeInterval time1forfps, time2forfps; // FPS用
 	int gameovercount;
 	int touchaction;
 	int bgimagex;
