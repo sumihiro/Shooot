@@ -16,6 +16,8 @@
 
 @property (readwrite) int life;
 
+-(id)initWithX:(int)x Y:(int)y viewW:(int)vieww;
+
 -(float)right:(float)touchx;
 -(float)left:(float)touchx;
 
