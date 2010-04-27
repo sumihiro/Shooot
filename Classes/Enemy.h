@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "MovableObject.h"
 
+// 敵のクラス
 @interface Enemy : MovableObject {
 	double vx, vy; // 速度
 	int vieww, viewh; // 画面の幅と高さ

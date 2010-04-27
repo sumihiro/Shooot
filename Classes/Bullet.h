@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-
+// 弾の抽象クラス
 @interface Bullet : NSObject {
 	float x, y; // 位置
 	double vx, vy; // 速度

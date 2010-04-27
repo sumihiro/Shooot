@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "Bullet.h"
 
+// 直線弾クラス
 @interface LinearBullet : Bullet {
 
 }

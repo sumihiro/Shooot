@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "Bullet.h"
 
+// 多方向弾クラス
 @interface NwayBullet : Bullet {
 	double dir; // 方向
 	int mode; // 0=渦巻き状弾、1=ランダム弾

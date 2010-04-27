@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "MovableObject.h"
 
+// 自機クラス
 @interface Spaceship : MovableObject {
 	int life; // ライフ
 	float halfsizeofspaceship;
