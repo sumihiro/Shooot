@@ -236,7 +236,7 @@
 			[bullet2 reset];
 			while ([bullet2 hasNext]) {
 				SnipeBullet *snipebullet = (SnipeBullet*)[bullet2 next];
-				[snipebullet move];
+				[snipebullet move:spaceship.x];
 				// 当り判定
 				if(snipebullet.y > viewh - halfsizeofspaceship*2 - sizeofbullet){
 					if([cd test:snipebullet withSpaceship:spaceship]){
@@ -384,6 +384,7 @@
 		//				  mybullet.x-halfsizeofmybullet, mybullet.y, null);
 		
 		// ライフゲージ描画
+		//FIXME: 矩形の描画方法を調べる
 		//canvas.drawRect(0, 5, spaceship.life, 20, paintlife);
 		
 		// hit時の処理
