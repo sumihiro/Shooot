@@ -163,14 +163,14 @@
 			isa = PBXGroup;
 			children = (
 				A46A645E11867557005A38ED /* Models */,
-				A46A64451186717E005A38ED /* ShoootSurfaceView.h */,
-				A46A64461186717E005A38ED /* ShoootSurfaceView.m */,
-				A46A643F118670BC005A38ED /* ShoootActivity.h */,
-				A46A6440118670BC005A38ED /* ShoootActivity.m */,
 				A46A642C11866968005A38ED /* CollisionDetect.h */,
 				A46A642D11866968005A38ED /* CollisionDetect.m */,
+				A46A643F118670BC005A38ED /* ShoootActivity.h */,
+				A46A6440118670BC005A38ED /* ShoootActivity.m */,
 				A46A64421186712B005A38ED /* ShoootSurfaceHolderCallback.h */,
 				A46A64431186712B005A38ED /* ShoootSurfaceHolderCallback.m */,
+				A46A64451186717E005A38ED /* ShoootSurfaceView.h */,
+				A46A64461186717E005A38ED /* ShoootSurfaceView.m */,
 			);
 			name = Shooot;
 			sourceTree = "<group>";
