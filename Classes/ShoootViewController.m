@@ -386,6 +386,10 @@
 		// ライフゲージ描画
 		//FIXME: 矩形の描画方法を調べる
 		//canvas.drawRect(0, 5, spaceship.life, 20, paintlife);
+		[fpsColor set];
+		NSString *life = [[NSString alloc] initWithFormat:@"LIFE: : %d",spaceship.life];
+		[life drawAtPoint:CGPointMake(1, 20) withFont:fpsFont];
+		[life release];
 		
 		// hit時の処理
 		if(isHit){
@@ -399,6 +403,7 @@
 		// Game Over描画
 		isShake = false;
 		bgimagex = 0;
+		[fpsColor set];
 		NSString *go = [[NSString alloc] initWithFormat:@"GAME OVER"];
 		[go drawAtPoint:CGPointMake(vieww/2 - 43, viewh/2 - 10) withFont:[UIFont systemFontOfSize:14.0f]];
 		[go release];
