@@ -205,6 +205,7 @@
 															  mode:nwaybulletmode];
 				dir = ++dir & 255; // 念のため256で0クリア
 				[bullet1 add:nb];
+				[nb release];
 			}
 			if(interval % 4 == 0){
 				SnipeBullet *sb = [[SnipeBullet alloc] initWithInitX:enemy2.x + halfsizeofenemy
@@ -215,6 +216,7 @@
 															   viewH:viewh
 																mode:snipebulletmode];
 				[bullet2 add:sb];
+				[sb release];
 			}
 			// 敵弾移動と当り判定
 			[bullet1 reset];
